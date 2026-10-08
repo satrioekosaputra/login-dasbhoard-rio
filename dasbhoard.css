@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #e9e6df;
+    font-family: sans-serif;
+    color: #222222;
+}
+
+.halamanutama {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.kolomkiri {
+    width: 50%;
+    height: 100%;
+    background-image: url('mata.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.judulbranding {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.deskripsibranding {
+    font-size: 14px;
+    color: #d1d5db;
+}
+
+.pembukusfoto {
+    margin-top: 20px;
+}
+
+.fotodash {
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+    object-fit: contain;
+}
+
+.kolomkanan {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kartuform {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+.headerform {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logoaplikasi {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.headerform h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.headerform p {
+    font-size: 13px;
+    color: #666;
+}
+
+.tombolsso {
+    width: 100%;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ikonsso {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.pemisahor {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.grupinput {
+    margin-bottom: 12px;
+}
+
+.grupinput label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.labelpassword {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lupapassword {
+    font-size: 12px;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.grupinput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.opsitambahan {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.tombolutama {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        overflow: auto;
+    }
+
+    .halamanutama {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .kolomkiri, .kolomkanan {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .kartuform {
+        width: 100%;
+        max-width: 350px;
+    }
+}
